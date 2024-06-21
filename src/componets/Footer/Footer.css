@@ -1,0 +1,104 @@
+/* General Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 12px;
+  }
+  
+  .footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer hr {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Footer Contact Section */
+  .footer-contact ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-contact li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact li i {
+    margin-right: 10px;
+  }
+  
+  /* Footer Menu Section */
+  .footer-menu ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Social Section */
+  .footer-social ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-social ul li {
+    margin-right: 10px;
+  }
+  
+  .footer-social ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-social ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* Copyright Section */
+  .text-muted {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Responsive Design */
+  
+  /* Extra small devices (phones, 576px and down) */
+  @media (max-width: 576px) {
+    .footer img {
+      max-width: 40%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 55px;
+        border-radius: 12px;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    /* No specific changes needed */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    /* No specific changes needed */
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* No specific changes needed */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* No specific changes needed */
+  }
+  
