@@ -28,6 +28,9 @@ const AboutMe = () => {
             
             <h2>Personal Statement:</h2>
             <p>I am passionate about leveraging my technical skills and business acumen to develop innovative solutions that meet user needs and exceed expectations. I thrive in dynamic environments where I can contribute my expertise to drive projects forward and achieve business goals.</p>
+            <h5>Contact</h5>
+            <p>Email: techaettarisai@gmail.com</p>
+            <p>pho: 9948946658</p>
         </div>
     );
 }
