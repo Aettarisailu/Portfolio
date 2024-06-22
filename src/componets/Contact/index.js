@@ -1,5 +1,4 @@
 
-import Navbar from '../navbar';
 import React from 'react';
 
 function Contact() {
@@ -9,7 +8,7 @@ function Contact() {
       <h2 className="text-center mb-5">Contact</h2>
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <form action="https://formsubmit.co/sailuaettari@gmail.com" method="POST">
+          <form action="https://formsubmit.co/techaettarisai@gmail.com" method="POST">
             <div className="form-group">
               <label htmlFor="name">Name:</label>
               <input type="text" className="form-control" id="name" name="name" required />
